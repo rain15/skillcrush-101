@@ -31,5 +31,44 @@ body {
     padding: 80px 0;
 }
 
+#about h2 {
+    font-family: "Lora", sans-serif;
+    font-size: 36px;
+}
 
+#about p {
+    font-size: 21px;
+    color: #7F7F7F;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+/***** Work Section *****/
+
+#work .full-width {
+    background: #F9CEB7;
+    padding: 115px 0;
+    text-align: center;
+    
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #2B2B2B;
+    font-size: 24px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: "Lora", sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    color: #2B2B2B;
+    padding: 0 35px;
+}
 /***** END *****/
