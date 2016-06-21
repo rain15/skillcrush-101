@@ -4,11 +4,15 @@ body {
     font-family: "Source Sans Pro", sans-serif;
 }
 
-#about, #work, #contact {
+#about,
+#work,
+#contact {
     height: 600px;
 }
 
+
 /***** GRID *****/
+
 .full-width {
     width: 1200px;
     margin: 0 auto;
@@ -23,6 +27,7 @@ body {
     width: 400px;
     float: left;
 }
+
 
 /***** About Section *****/
 
@@ -43,13 +48,16 @@ body {
     padding-right: 50px;
 }
 
+
 /***** Work Section *****/
 
-#work .full-width {
+#work {
     background: #F9CEB7;
+}
+
+#work .full-width {
     padding: 115px 0;
     text-align: center;
-    
 }
 
 #work img {
@@ -71,4 +79,6 @@ body {
     color: #2B2B2B;
     padding: 0 35px;
 }
+
+
 /***** END *****/
